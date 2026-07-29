@@ -1,0 +1,52 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl( 20,40%, 47%);
+    color: #2c3e50;
+    margin: 0;
+    padding: 20px;
+    font-size: 32px;
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+    color: #2980b9;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.Lorem{
+    color: rgb(255, 0, 0);
+}
+
+p.Lorem{
+    text-align: justify;
+}
+
+#ultimoparagrafo{
+    text-align: right;
+}
+
+.conteudo{
+    width: 50vw;
+    height: auto;
+}
+
+#botao:hover{
+    color: rgb(255, 145, 0);
+    background-color: blue;
+}
+
+#imagem{
+    transition: transform 0.3s ease, opacity 0.3s ease; /*transição suave*/
+    width: 600px;
+}
+
+#imagem:hover{
+    transform: scale(1.1); /*Aumenta a imagem em 10%"*/
+    opacity: 0.8; /*Diminui ligeiramente a opacidade*/
+}
