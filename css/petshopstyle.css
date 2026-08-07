@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #ff6f61;
-    --secundary-color: #f96966;
+    --primary-color: #19591e;
+    --secundary-color: #1bb127;
     --background-color: #f4f4f9;
     --text-color: #333;
     --light-text-color: #666;
@@ -82,7 +82,7 @@ body {
 
 .sidebar h2{
     margin-bottom: 1rem;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .sidebar-link{
@@ -100,6 +100,12 @@ body {
 
 .sidebar-link li a:hover{
     color: var(--secundary-color);
+}
+
+.sidebar img{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
 }
 
 .cards{
@@ -142,6 +148,7 @@ body {
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: background-color 0.3s;
+    
 }
 
 .btn:hover {
@@ -160,5 +167,21 @@ body {
 @media(max-width: 768px){
     .main-content{
         flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .cards{
+        width: 100%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .card img{
+        width: 100%;
+        border-radius: var(--border-radius);
     }
 }
